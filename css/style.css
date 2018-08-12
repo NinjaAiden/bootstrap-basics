@@ -1,0 +1,154 @@
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.callout-container {
+    height: 100vh;
+    margin-left: 0;
+    margin-right: 0;
+
+    background: url(https://www.telegraph.co.uk/content/dam/onlyinbritain/whiskey-glass-xlarge.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: relative;
+
+}
+
+@media (min-width: 1200px) {
+    .callout-container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .callout-container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    color: #ffffff;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+.block-divider {
+    width: 33.333%;
+    height: 1px;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--cta:hover {
+    background-color: #278b3e;
+}
+
+.navbar-light {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-light .navbar-brand {
+    color: #b3b0ad;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #b3b0ad;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #818182;
+}
+
+.delivery {
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #dee2e6;
+}
+
+.jumbotron {
+    margin-top: 10%;
+}
+
+.page-header{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.quote{
+        border-left: 5px solid #007bff;
+}
+
+body > div.container.features-container{
+    background-color: #e44b11;
+}
+
+body > div.container.features-container > section > div:nth-child(2) > div:nth-child(2) > div > p:nth-child(3) > a{
+        color: #fff;
+}
+
+body > div.container.features-container > section > div:nth-child(2) > div:nth-child(1) > div > p:nth-child(3) > a{
+    color: #fff;
+}
+
+body > div.container.features-container > section > div:nth-child(2) > div:nth-child(3) > div > p:nth-child(3) > a{
+    color: #fff;
+}
+
+.btn.btn-outline-success.my-2.my-sm-0.d-none.d-lg-block{
+        border-radius: 25px;
+}
+
+.quotes-container{
+    padding:0;
+    background-color: #489bf4;
+}
